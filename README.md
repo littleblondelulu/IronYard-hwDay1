@@ -4,30 +4,30 @@ public class Tweet{
   String text;
   String username;
   int timestamp;
-  boolean isPrivat;
+  boolean isPrivate;
 }
 
 public class Client{
   String name;
   int ssn;
-  boolean usCitz;
+  String address;
   double chkgActBalance;
   String profession;
 }
 
 public class Travel{
   String destination;
-  int flightNum;
+  int flightNumber;
   boolean roundTrip;
-  int numPsgrs;
-  int numBags;
+  int numberOfPassengers;
+  int numberOfBags;
 }
 
 public class Dog{
   String name;
   int age;
   String breed;
-  int lastVetCheckup;
+  int DateLastVetCheckup;
   boolean upToDate;
 }
 
